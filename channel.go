@@ -2,11 +2,11 @@ package grtc
 
 import (
 	"context"
-	"server/protos/grtc"
+	"github.com/pion/webrtc/v2"
+	"github.com/marcsj/grtc/protos/grtc"
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/pion/webrtc/v2"
 	"github.com/sirupsen/logrus"
 )
 

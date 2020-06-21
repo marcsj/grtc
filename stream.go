@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"io"
-	"server/protos/grtc"
+	"github.com/marcsj/grtc/protos/grtc"
 
 	"github.com/golang/protobuf/proto"
 	"github.com/sirupsen/logrus"
